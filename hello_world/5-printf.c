@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - printf uses library command to print line
+ * main - printf uses library command to print line
  * Return: 0
  */
 
