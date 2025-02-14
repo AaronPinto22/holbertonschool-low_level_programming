@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /**
+ * main - puts prints line
  * Return: 0
  */
 
