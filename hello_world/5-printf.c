@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- *
- * main - printf uses library command to print line
- * return: 0
+ * Main - printf uses library command to print line
+ * Return: 0
  */
 
 int main(void)
