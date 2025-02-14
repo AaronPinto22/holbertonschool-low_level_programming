@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main printf uses directory command to print line
- * return value is 0
+ * main - printf uses library command to print line
+ * return: 0
  */
 
 int main(void)
