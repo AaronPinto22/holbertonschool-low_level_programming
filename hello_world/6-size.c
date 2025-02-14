@@ -7,8 +7,8 @@
 
 int main(void)
 {
-	printf("Size of char: %zu bytes\n", sizeof(char));
-	printf("Size of int: %zu bytes\n", sizeof(int));
-	printf("Size of float: %zu bytes\n", sizeof(float));
+	printf("char size: %zu \n", sizeof(char));
+	printf("int size: %zu \n", sizeof(int));
+	printf("float size: %zu \n", sizeof(float));
         return (0);
 }
