@@ -8,10 +8,14 @@
 int main(void)
 {
 int i;
-char hex_digits[] = "0123456789abcdef";
-for (i = 0; i <= 16; i++)
-{
-putchar(hex_digits[i]);
-}
+char letter;
+
+for (i = 0; i < 10; i++)
+putchar((i % 10) + '0');
+
+for (letter = 'a'; letter <= 'f'; letter++)
+putchar(letter);
+
+putchar('\n');
 return (0);
 }
