@@ -17,9 +17,9 @@ if (i != x)
 putchar(i + '0');
 putchar(x + '0');
 putchar(',');
+putchar(' ');
 }
 }
 }
-putchar (' ');
 return (0);
 }
