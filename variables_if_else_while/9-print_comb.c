@@ -1,25 +1,22 @@
 #include <stdio.h>
 
 /**
- *main - prints alphabet
+ *main - prints numbers in ascending order
  *Return: 0
  */
 
 int main(void)
 {
-int i, x;
-for (i = 0; i <= 9; i++)
+int c;
+for (c = '0'; c <= '9'; c++)
 {
-for (x = 0; x <= 9; x++)
+putchar(c);
+if (c != '9')
 {
-if (i != x)
-{
-putchar(i + '0');
-putchar(x + '0');
 putchar(',');
 putchar(' ');
 }
 }
-}
+putchar('\n');
 return (0);
 }
