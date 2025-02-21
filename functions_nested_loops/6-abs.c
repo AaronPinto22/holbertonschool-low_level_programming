@@ -3,7 +3,7 @@
 /**
  *_abs - abs
  * Return: 0
- * @int: int
+ * @n: int
  */
 
 int _abs(int n)
