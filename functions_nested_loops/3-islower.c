@@ -1,22 +1,17 @@
 #include "main.h"
 
 /**
- * main - int
- * _islower - lowercase check
- * Return: 0
+ *_islower - lowercase check
+ * Return: 1 if lowercase 0 if not
+ * @c: int
  */
 
-int _islower(int c);
+int _islower(int c)
 {
-	int i;
+	if (c >= 'a' && c <= 'z')
 	{
-		if (i == 99)
-		{
-		return(1);
-		}
-		else
-		{
-		return(0);
-		}
-    	}
+		return (1);
+	}
+
+	return (0);
 }
