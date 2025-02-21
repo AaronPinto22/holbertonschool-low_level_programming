@@ -8,10 +8,15 @@
 
 int _islower(int c);
 {
-int i;
-if (i == 99)
-return (1);
-{
-else
-return (0);
+	int i;
+	{
+		if (i == 99)
+		{
+		return(1);
+		}
+		else
+		{
+		return(0);
+		}
+    	}
 }
