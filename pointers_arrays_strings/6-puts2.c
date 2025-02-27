@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rev_string - reverse a string
+ * puts2 - skips a character
  * Return: 0
  * @str: char
  */
@@ -12,7 +12,6 @@ void puts2(char *str)
 
 	while (str[i] != '\0')
 	{
-	
 		if (i % 2 == 0)
 		{
 			_putchar(str[i]);
