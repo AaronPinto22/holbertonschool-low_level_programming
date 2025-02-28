@@ -4,7 +4,8 @@
 /**
  * *_strcpy - copies string pointed to
  * Return: 0
- * @i: int
+ * @dest: char
+ * @src: char
  */
 
 char *_strcpy(char *dest, char *src)
